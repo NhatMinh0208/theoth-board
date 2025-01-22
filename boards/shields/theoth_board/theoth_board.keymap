@@ -1,0 +1,17 @@
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // Layer 0
+            // -------------------------------------
+            // |   `       |     1     |     2     |     3     |     4     |     5     |
+            // |   Tab     |     Q     |     W     |     E     |     R     |     T     |
+            // |   Shift   |     A     |     S     |     D     |     F     |     G     |
+            // |   Ctrl    |     Z     |  Studio   |     X     |   Space   |     C     |
+            bindings = <
+                &kp GRAVE      &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 
+                &kp TAB        &kp Q &kp W &kp E &kp R &kp T 
+                &kp LSHIFT     &kp A &kp S &kp D &kp F &kp G 
+                &kp LCTRL      &kp Z &studio_unlock           &kp X &kp SPACE &kp C 
+            >;
+        };
+    };

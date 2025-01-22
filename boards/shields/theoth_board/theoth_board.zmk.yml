@@ -1,0 +1,10 @@
+file_format: "1"
+id: theoth_board
+name: Theoth Board
+type: shield
+url: https://github.com/NhatMinh0208/theoth-board
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
