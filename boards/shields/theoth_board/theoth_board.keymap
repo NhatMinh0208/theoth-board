@@ -13,10 +13,10 @@
             // |   Shift   |     A     |     S     |     D     |     F     |     G     |
             // |   Ctrl    |     Z     |  Studio   |     X     |   Space   |     C     |
             bindings = <
-                &kp GRAVE      &kp 1 &kp 2 &kp 3 &kp 4 &kp 5 
-                &kp TAB        &kp Q &kp W &kp E &kp R &kp T 
-                &kp LSHIFT     &kp A &kp S &kp D &kp F &kp G 
-                &kp LCTRL      &kp Z &studio_unlock           &kp X &kp SPACE &kp C 
+                &kp GRAVE      &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 
+                &kp TAB        &kp Q  &kp W  &kp E  &kp R  &kp T 
+                &kp LSHIFT     &kp A  &kp S  &kp D  &kp F  &kp G 
+                &kp LCTRL      &kp Z  &kp X                &kp SPACE &kp C &studio_unlock 
             >;
         };
     };
