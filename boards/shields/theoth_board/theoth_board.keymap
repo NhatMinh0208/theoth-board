@@ -15,5 +15,21 @@
                 &kp LCTRL      &kp Z &studio_unlock           &kp X &kp SPACE &kp C 
             >;
         };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
+
+        extra3 {
+            status = "reserved";
+        };
+
+        extra4 {
+            status = "reserved";
+        };
     };
 };
